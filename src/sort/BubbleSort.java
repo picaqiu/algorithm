@@ -5,8 +5,6 @@ import java.util.Arrays;
 import static utils.CommonUtils.swap;
 
 public class BubbleSort {
-
-
     //从下标[0,n-1]相邻元素比较大小，遇到左>右，交换位置，这样最后一位为最大元素
     //从下标[0,n-2]相邻元素比较大小，遇到左>右，交换位置，这样最后一位为最大元素
     // 。。。直到交换所有
@@ -44,8 +42,9 @@ public class BubbleSort {
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[]{2,3,4,1,5,7,8,3};
-        sort(nums);
-        System.out.println(Arrays.toString(nums));
+        StringBuffer s = new StringBuffer();
+        s.append(123);
+        s.insert(1, '(').append(')');
+        System.out.println(s);
     }
 }

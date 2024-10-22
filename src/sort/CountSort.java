@@ -2,6 +2,7 @@ package sort;
 
 import java.util.Arrays;
 
+
 public class CountSort {
 
     public static void sort(int[] nums) {
@@ -42,7 +43,7 @@ public class CountSort {
         int[] nums = new int[]{5,5,5,4,2,2,3,3,1};
         System.out.println(Arrays.toString(nums));
         sort(nums);
-        System.out.println("--------after sort-------------");
+        System.out.println("--------after---sort-------------");
         System.out.println(Arrays.toString(nums));
     }
 }
